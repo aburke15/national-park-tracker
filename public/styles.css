@@ -1,0 +1,189 @@
+@font-face {
+    font-family: HorsebackSlab-Bold;
+    src: url("/fonts/HorsebackSlab-Bold.ttf");
+}
+
+body {
+    background: url("img/IMG_6213.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+div>h4 {
+    display: inline; 
+}
+
+h5 {
+    font-size: 20px; 
+}
+
+.title {
+    margin-top: 100px; 
+    color: indianred;
+    opacity: .8;
+    font-family: HorsebackSlab-Bold;
+    font-size: 70px; 
+}
+
+.remove {
+    margin-left: 8px;
+}
+
+.post-margin {
+    margin-top: 15px;
+}
+
+.input {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline; 
+    border: 1px solid black;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #F5F5F5;
+    width: 45%; 
+    box-sizing: border-box; 
+    padding-left: 5px; 
+}
+
+.text-location {
+    width: 100%;
+}
+
+.panel {
+    box-shadow: 12px 12px 5px #555555;
+}
+
+.nav-bar {
+    font-family: HorsebackSlab-Bold;
+    position: fixed;
+    box-sizing: border-box;
+    height: auto;
+    border: 1px solid grey;
+    background-color: #003114;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-style {
+    list-style-type: none;
+}
+
+.nav-style ul {
+    text-align: center;
+    padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 90px; 
+}
+
+.nav-style ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px; 
+}
+
+.nav-style ul li a {
+    text-decoration: none;
+    color: indianred;
+}
+
+.search {
+    display: inline;
+    float: right;
+    font-style: italic;
+    border-radius: 0px;
+    margin-top: -52.55px;
+    margin-right: 10px;
+    width: 200px;
+    z-index: 2;
+}
+
+.home-margin {
+    margin-top: 40px;
+    border-radius: 0px;
+}
+
+.brand-margin {
+    margin-top: 3px;
+}
+
+.brand {
+    float: left;
+    color: indianred;
+    display: inline;
+}
+
+.post-width {
+    max-width: 65%;
+    min-width: 300px;
+}
+
+.icons {
+    font-size: 23px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #003114; 
+}
+
+.post-icons {
+    color: #003114;
+}
+
+.post-img {
+    display: inline; 
+}
+
+.img-margin {
+    margin-bottom: 15px;
+}
+
+.img-top {
+    margin-top: 60px;
+}
+
+.list-img {
+    list-style-type: none;
+}
+
+.list-img ul {
+    padding: 0px;
+}
+
+.list-img img {
+    border: 1px solid black;
+}
+
+.list-img li:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+@media (max-width: 765px) {
+    .search {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav-style ul li {
+        font-size: 14px;
+    }
+}
+
+@import "bower_components/angular-upload/src/directives/btnUpload.less"; 
